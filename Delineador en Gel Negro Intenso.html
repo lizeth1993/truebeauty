@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TRUE BEAUTY - Delineador Gel Negro Intenso</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Helvetica Neue', sans-serif;
+      background: linear-gradient(to right, #f3e6f6, #e0c7f1);
+      color: #333;
+    }
+    header {
+      background-color: #9b4d96;
+      color: #fff;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    nav a {
+      color: #fff;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .section-title {
+      text-align: center;
+      font-size: 2.5rem;
+      margin-top: 40px;
+      color: #7a2f72;
+    }
+    .section-subtitle {
+      text-align: center;
+      font-size: 1.2rem;
+      margin-bottom: 30px;
+      color: #5f2a5d;
+    }
+    .video-container {
+      display: flex;
+      justify-content: center;
+      margin: 30px 0;
+    }
+    .video-container video {
+      width: 85%;
+      max-width: 600px;
+      border-radius: 20px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    }
+    .products {
+      display: flex;
+      justify-content: center;
+      padding: 20px;
+    }
+    .product {
+      background-color: #fff;
+      border-radius: 20px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      padding: 20px;
+      max-width: 280px;
+    }
+    .product img {
+      width: 100%;
+      border-radius: 10px;
+      height: 220px;
+      object-fit: cover;
+    }
+    .product h3 {
+      color: #7a2f72;
+      margin: 15px 0;
+    }
+    .product input {
+      width: 60px;
+      padding: 5px;
+      border-radius: 10px;
+      margin-top: 10px;
+      border: 1px solid #ccc;
+    }
+    .product button {
+      background-color: #9b4d96;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 20px;
+      margin-top: 10px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+    footer {
+      background-color: #9b4d96;
+      color: #fff;
+      text-align: center;
+      padding: 30px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div><strong>TRUE BEAUTY</strong></div>
+  <nav>
+    <a href="maquillaje.html"><a href="maquillaje en general.html" target="_parent">Maquillaje</a>
+  </nav>
+</header>
+
+<h2 class="section-title">Delineador Gel Negro Intenso</h2>
+<p class="section-subtitle">Intensidad y precision en una sola pasada</p>
+
+<div class="video-container">
+  <video src="C:\Users\lizga\OneDrive\Documentos\Modulo 4\PAGINAS WEB\MI PAGINA\video de la pagina.mp4" autoplay muted loop playsinline></video>
+</div>
+
+<section class="products">
+  <div class="product">
+    <img src="C:\Users\lizga\OneDrive\Documentos\Modulo 4\PAGINAS WEB\MI PAGINA\DELINEADOR.jpeg" alt="Delineador Gel Negro Intenso">
+    <h3>Delineador Gel Negro Intenso</h3>
+	<p> $280 <p>
+    <form onsubmit="mostrarAlerta(event)">
+      <input type="number" min="1" value="1">
+      <button type="submit">Comprar</button>
+    </form>
+  </div>
+</section>
+
+<footer>
+  <p>Suscribete a nuestro boletin</p>
+  <input type="email" placeholder="Tu correo electronico">
+  <button>Suscribirme</button>
+</footer>
+
+<script>
+  function mostrarAlerta(event) {
+    event.preventDefault();
+    alert("Compra exitosa! Gracias por elegirnos ?");
+  }
+</script>
+
+</body>
+</html>

@@ -1,0 +1,243 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html> 
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>TRUE BEAUTY</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Helvetica Neue', sans-serif;
+      background: linear-gradient(to right, #f3e6f6, #e0c7f1);
+      color: #333;
+    }
+    header {
+      background-color: #9b4d96;
+      color: #fff;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    nav a {
+      color: #fff;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    /* Hero con video de fondo */
+    .hero {
+      position: relative;
+      height: 500px;
+      overflow: hidden;
+    }
+    .hero-video {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 1;
+    }
+    .hero-overlay {
+      position: relative;
+      z-index: 2;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .hero-overlay h1 {
+      font-size: 3rem;
+      background: rgba(0, 0, 0, 0.5);
+      padding: 20px;
+      border-radius: 10px;
+      color: #fff;
+      text-align: center;
+    }
+
+    .products {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 40px 20px;
+      gap: 30px;
+    }
+    .product {
+      background-color: #fff;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      max-width: 250px;
+      padding: 20px;
+    }
+    .product img {
+      width: 100%;
+      border-radius: 10px;
+      height: 200px;
+      object-fit: cover;
+    }
+    .product button {
+      margin-top: 10px;
+      background-color: #9b4d96;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 20px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+    footer {
+      background-color: #9b4d96;
+      color: #fff;
+      text-align: center;
+      padding: 30px 20px;
+      margin-top: 40px;
+    }
+    footer input[type="email"] {
+      padding: 10px;
+      margin-right: 10px;
+      border-radius: 20px;
+      border: none;
+    }
+    footer button {
+      padding: 10px 20px;
+      background-color: #fff;
+      color: #9b4d96;
+      border: none;
+      border-radius: 20px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+  .product1 {      background-color: #fff;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      max-width: 250px;
+      padding: 20px;
+}
+  </style>
+</head>
+<body>
+  <header>
+    <div><strong>TRUE BEAUTY</strong></div>
+    <nav>
+      <p><a href="#labios"><a href="labios.html" target="_parent">Labios</a> 
+	    <a href="skincare.html" target="_parent">Skin Care</a><a href="#skincare"></a>
+        <a href="#nuevos"><a href="nuevos productos.html" target="_parent">Nuevos</a><a href="#ofertas">Ofertas</a>
+        <a href="#brochas"><a href="brochas.html" target="_parent">Brochas</a><a href="#paletas">Paletas</a>
+        <a href="#maquillaje"><a href="maquillaje en general.html" target="_parent">Maquillaje</a></p>
+    </nav>
+  </header>
+
+  <!-- Hero con video -->
+  <div class="hero">
+    <video autoplay muted loop playsinline class="hero-video">
+      <source src="ANIMACION DE MAQUILLAJE.mp4" type="video/mp4">
+      Tu navegador no soporta videos HTML5.
+    </video>
+    <div class="hero-overlay">
+      <h1>Descubre tu belleza verdadera</h1>
+    </div>
+  </div>
+
+  <!-- Secci�n de productos -->
+  <section class="products">
+    <div class="product" id="labios">
+      <img src="labios.jpg" alt="Labios">
+      <h3>Labios</h3>
+      <button><a href="labios.html" target="_parent">Ver mas</a></button>
+    </div>
+    <div class="product" id="skincare">
+      <span class="product1"><img src="C:\Users\lizga\OneDrive\Documentos\Modulo 4\PAGINAS WEB\MI PAGINA\SKIN CARE.jpeg" alt="Skin Care" width="95%" /></span>
+      <h3>Skin Care</h3>
+      <button><a href="skincare.html" target="_parent">Ver mas</a></button>
+    <a href="skincare.html" target="_parent"></a></div>
+    <div class="product" id="nuevos">
+      <img src="C:\Users\lizga\OneDrive\Documentos\Modulo 4\PAGINAS WEB\MI PAGINA\MAQUILLAJE.jpeg" alt="Nuevos Productos">
+      <h3>Nuevos Productos</h3>
+      <button><a href="nuevos productos.html" target="_parent">Ver mas</a></button>
+    </div>
+    <div class="product" id="ofertas">
+      <img src="C:\Users\lizga\OneDrive\Documentos\Modulo 4\PAGINAS WEB\MI PAGINA\MAQUILLAJE 2.jpeg" alt="Ofertas">
+      <h3>Ofertas</h3>
+      <button><a href="ofertas.html" target="_parent">Ver mas</a></button>
+    </div>
+    <div class="product" id="brochas">
+      <img src="C:\Users\lizga\OneDrive\Documentos\Modulo 4\PAGINAS WEB\MI PAGINA\BROCHAAS.jpeg" alt="Brochas">
+      <h3>Brochas</h3>
+      <button><a href="brochas.html" target="_parent">Ver mas</a></button>
+    </div>
+    <div class="product" id="paletas">
+      <img src="C:\Users\lizga\OneDrive\Documentos\Modulo 4\PAGINAS WEB\MI PAGINA\PALETA DE SOMBRAS.jpeg" alt="Paletas de Sombras">
+      <h3>Paletas de Sombras</h3>
+      <button><a href="paletas de maquillaje.html" target="_parent">Ver mas</a></button>
+    </div>
+    <div class="product" id="maquillaje">
+      <img src="C:\Users\lizga\OneDrive\Documentos\Modulo 4\PAGINAS WEB\MI PAGINA\MAQUILLAJE 3.jpeg" alt="Maquillaje en General">
+      <h3>Maquillaje en General</h3>
+      <button><a href="maquillaje en general.html" target="_parent">Ver mas</a></button>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>Suscribete a nuestro boletin</p>
+    <input type="email" placeholder="Tu correo electronico">
+    <button>Suscribirme</button>
+    <p style="margin-top: 20px;">Siguenos en redes sociales</p>
+  </footer>
+
+
+<audio id="audio-fondo" loop>
+  <source src="C:\Users\lizga\OneDrive\Documentos\Modulo 4\PAGINAS WEB\MI PAGINA\PILATES.mp3" type="audio/mpeg">
+</audio>
+
+<button onclick="toggleAudio()" id="btn-audio" style="
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px 20px;
+  background-color: #9b4d96;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: bold;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  z-index: 1000;
+">
+🔈 Reproducir Música
+</button>
+
+<script>
+  const audio = document.getElementById("audio-fondo");
+  const btn = document.getElementById("btn-audio");
+
+  audio.volume = 0.1;
+  let iniciado = false;
+
+  document.addEventListener("click", function () {
+    if (!iniciado) {
+      audio.play();
+      iniciado = true;
+      btn.innerText = "🔊 Pausar Música";
+    }
+  });
+
+  function toggleAudio() {
+    if (audio.paused) {
+      audio.play();
+      btn.innerText = "🔊 Pausar Música";
+    } else {
+      audio.pause();
+      btn.innerText = "🔈 Reproducir Música";
+    }
+  }
+</script>
+
+
+</html>
